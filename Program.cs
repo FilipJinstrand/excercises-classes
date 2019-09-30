@@ -6,7 +6,13 @@ namespace excercises_classes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Dodo dodo = new Dodo();
+
+            dodo.age = 10;
+            dodo.name = "Peter";
+            dodo.extinct = true;
+
+            dodo.Speak();
         }
     }
 }
