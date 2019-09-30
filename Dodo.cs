@@ -10,6 +10,12 @@ namespace excercises_classes
 
         private string extinctMessage;
 
+        public Dodo(int ConAge, string ConName, bool ConExtinct){
+            age = ConAge;
+            name = ConName;
+            extinct = ConExtinct;
+        }
+
 
         public int Age{
             get{

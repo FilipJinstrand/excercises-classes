@@ -6,7 +6,8 @@ namespace excercises_classes
     {
         static void Main(string[] args)
         {
-            Dodo dodo = new Dodo();
+            Dodo dodo = new Dodo(10, "Karl", false);
+            dodo.Speak();
 
             dodo.Age = 10;
             dodo.Name = "Peter";
