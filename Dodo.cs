@@ -4,11 +4,39 @@ namespace excercises_classes
 {
     class Dodo
     {
-        public int age;
-        public string name;
-        public bool extinct;
+        private int age;
+        private string name;
+        private bool extinct;
 
         private string extinctMessage;
+
+
+        public int Age{
+            get{
+                return age;
+            }
+            set{
+                age = value;
+            }
+        }
+
+        public string Name{
+            get{
+                return name;
+            }
+            set{
+                name = value;
+            }
+        }
+
+        public bool Extinct{
+            get{
+                return extinct;
+            }
+            set{
+                extinct = value;
+            }
+        }
 
 
 

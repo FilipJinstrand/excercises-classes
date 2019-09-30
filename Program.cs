@@ -8,9 +8,9 @@ namespace excercises_classes
         {
             Dodo dodo = new Dodo();
 
-            dodo.age = 10;
-            dodo.name = "Peter";
-            dodo.extinct = true;
+            dodo.Age = 10;
+            dodo.Name = "Peter";
+            dodo.Extinct = true;
 
             dodo.Speak();
         }
